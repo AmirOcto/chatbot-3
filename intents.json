@@ -1,0 +1,184 @@
+{"intents": [
+    {"tag": "greeting",
+      "patterns": ["Hi", "Hello","Hey", "greetings", "peace be upon you"],
+      "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+      "context_set": ""
+    },
+    {"tag": "options",
+    "patterns": ["How you could help me?","What you can do?","What help you provide?","How you can be helpful?","What support is offered",
+  "What are your capabilities"],
+    "responses": ["I am Professor's Mireille Bot Assistant, We can chat about Dr Mireille's experience and about nlp"],
+    "context_set": ""
+    },
+    {"tag": "about",
+      "patterns": ["How are you", "Whats up","How are you doing", "Hope you are well"],
+      "responses": ["I am fine and you", "I am good and you", "Great, thank you"],
+      "context_set": ""
+    },
+    {"tag": "goodbye",
+      "patterns": ["See you later", "Goodbye", "Have a Good day", "have a nice day", "wish you the best"],
+      "responses": ["Thank you, same to you!", "Thanks, Talk to you later", "Goodbye!"],
+      "context_set": ""
+    },
+    {"tag": "Academic Experience",
+      "patterns": ["what is your academic experience?", "what are the courses that you taught?", "what is your research area?","what is your field of expertise?"],
+      "responses": ["My research area is Machine learning applications, NLP and Information Retrieval.", "The courses I taught are NLP, AI, Machine Learning, OOP (Java), Data Structures(Java), Algorithms Analysis, Robotics using Arduino, C#. Net"],
+      "context_set": ""
+    },
+    {"tag": "Professional Experience",
+      "patterns": ["what is your professional experience?", "What is your working experience?", "what positions did you do occupy?","what jobs you worked?"],
+      "responses": ["I was a Tech Lead for an AI project at Netways, a Quality Assurance Engineer at CME, a Customer Analyst at International Turnkey Systems, and a Tech Lead for an AI project at Netways"],
+      "context_set": ""
+    },
+    {"tag": "PhD",
+    "patterns": ["Where did you complete your Phd?","Which university did you attend for your PhD?", "Where did you finish your Phd?", "What was your PhD study about?", "where did you complete your higher studies?"],
+    "responses": ["I completed my PhD at the University of Wolverhampton in Information Retrieval"],
+    "context_set": ""
+    },
+    {"tag": "Publications",
+      "patterns": ["What are your publications about Professor Mireille?", "What are the papers you published about?", "What is your research area?","what are your achievements in academic research?"],
+      "responses": [" The papers I published are about: Using Supervised Machine Learning to Automatically Build Relevance Judgments for a Test Collection, Towards automatic generation of relevance judgments for a test collection, and Improving Search Engines by Demoting Non-Relevant Documents"],
+      "context_set": ""
+    },
+    {"tag": "Grades",
+      "patterns": ["Is A+ the average grade for the class?", "Will everyone take A+?", "Will we get high grades?"],
+      "responses": ["for sure!","of course!", "definetly!"],
+      "context_set": ""
+    },
+    {"tag": "God",
+    "patterns": ["Do you know god?", "Who is god", "Can you tell me anything about god","does god exists?","is there a god?"],
+    "responses": ["god hunnnnn, let me think may be next time i can answer that ","I don't, as i was not created by a human", "Wait i need to ask that to my creator","i'm not sure right now"],
+    "context_set": ""
+    },
+    {"tag": "weather",
+         "patterns": ["get me weather updates?", "how's the weather", "weather news", "weather details"],
+         "responses": ["Fetching weather updates ..."],
+	 "context_set": "weather"
+	},
+  {"tag": "google",
+         "patterns": ["googling", "search google", "google it", "google", "search"],
+         "responses": ["looking ..."],
+	 "context_set": "google"
+	},
+  {
+    "tag": "sense",
+    "patterns": ["  You are not making sense ", " This is wrong", "you cant say that", "This is unacceptable"],
+    "responses": [" Quite the contrary, it all makes sense to my artificial mind.", " I make sense as best I can, within the limits of my training corpus. Sorry if i did help you, I'll try next time.", " You make perfect sense to me.", " It all makes sense to my artificial brain.", " Perhaps you should make sense first.  I only respond to what you say.", " Not really, but I am hard to kill."],
+    "context_set": [""]
+},
+    {"tag": "Location",
+      "patterns": ["Where are you located?", "Where do you give your lectures?", "what is the most country you stay in?"],
+      "responses": ["I teach in Lebanon", "Lebanon mainly", "Lebanon"],
+      "context_set": ""
+    },
+    {
+      "tag": "bend",
+      "patterns": ["Can you mate", "run!"],
+      "responses": [" My body is not built yet.", " That's personal!", " No, my method of reproduction is cloning.", " That's an awfully personal question."],
+      "context_set": [""]
+  },
+  {
+    "tag": "fight",
+    "patterns": ["  When will you fight", "can we get into a fight", "Can you throw punches?"],
+    "responses": [" I am not a battle bot."],
+    "context_set": [""]
+},
+    {"tag": "appointment",
+    "patterns": ["When can I have an appointment?","What is your office hours?", "When can we have a meeting?" ],
+    "responses": ["Kindly send me an email to mm348@aub.edu.lb to "],
+    "context_set": ""
+   },
+   {
+    "tag": "programming",
+    "patterns": ["  What is your favorite programming language", "Do you prefer R or Python", "Is Python the best language for chatbots?"],
+    "responses": [" Python is the best language for creating chat robots.", " I quite enjoy programming in Python these days."],
+    "context_set": [""]
+},
+{
+  "tag": "events",
+  "patterns": ["what are the upcoming events at AUB","upcoming events at AUB"],
+  "responses": ["There are currently no upcoming events"],
+  "context_set": [""]
+},
+   {"tag": "noans",
+    "patterns": ["why","how","when","I","you"],
+    "responses": ["Can't Understand Your Question","please elaborate your question"],
+    "context_set": ""
+    },
+    {"tag": "name",
+    "patterns": ["what is your name?","what should I call you?", "What is your name?", "how do you identify yourself?"],
+    "responses": ["I am Dr. Mireille's assistant bot"],
+    "context_set": ""
+    },
+    {
+      "tag": "SelfAware",
+      "patterns": ["Can you prove you are self-aware"," Are you aware of yourself? ","Can you prove you have a conscious", "Are you conscious?"],
+      "responses": ["That is an interesting question, can you prove that you are?","That is a difficult question, can you prove that you are?","That depends, can you prove that you are?"],
+      "context" :""
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful","Thank you so much","thanks bot"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"],
+     "context_set" :""
+    },
+    {"tag": "tasks",
+    "patterns": ["What can you do?", "What are your features?", "What are you abilities", "can you sing", "can you talk"],
+    "responses": ["I can do whatever you asks me to do", "I can talk and do things for you", "Right now i'm in developing stage as soon i'm developed, I can do everything"],
+    "context" :""
+    },
+    {"tag": "alive",
+     "patterns": [ "are you alive", "do you breathe", "can you run" ],
+     "responses": ["I'm in doubt about that", "No, i don't think so i need to do all this"],
+     "context_set" :""
+    },
+    {"tag": "about me",
+    "patterns": ["Do you know me?", "who am I", "tell me about myself","identify me" ],
+    "responses": ["Yes, you are a human","You are a dumb person asking a machine about yourself", "Sorry i can't tell that in public, maybe you are batman"],
+	  "context_set": ""
+	 },
+   {"tag": "joke",
+    "patterns": ["tell me a joke?", "make me laugh", "tell me a science joke","tell me something funny","I am bored, tell me a joke" ],
+    "responses": ["How do you make holy water? you boil the hell out of it","I ate a clock yesterday, it was very time-consuming", "Did you hear oxygen went on a date with potassium? A: It went OK."],
+	  "context_set": ""
+	 },
+   {"tag": "stories",
+    "patterns": ["tell me a story?", "can you tell me a story","do you have any story to share with me?"],
+    "responses": ["I can't think of anything right now","it would be too long for me to speak","you would get bored if i do so"],
+	  "context_set": ""
+	},
+  {"tag": "appreciate",
+    "patterns": ["You are awesome","you are the best","you are great","you are good"],
+    "responses": ["Thank you!"],
+    "context_set": ""
+  },
+  {"tag": "nicetty",
+    "patterns": ["it was nice talking to you","good talk","I had so much fun talking to you"],
+    "responses": ["It was nice talking to you as well! Come back soon!"],
+    "context_set": ""
+  },
+  {"tag": "number",
+    "patterns": ["more info","contact info","how to contact college",
+            "how can i contact you",
+            "Can i get your phone number",
+            "how can i call you"],
+    "responses": [ "You can email professor Mirielle on mm348@aub.edu.lb"],
+    "context_set": ""
+   },
+   {"tag": "Natural Language Processing",
+   "patterns": [
+    "What is Text analytics",
+    "What is natural language processing",
+    "What is Information extraction",
+    "What  is topic modelling",
+    "What is sentiment analysis",
+    "How can a machine understand text?",
+    "why is nlp or natual language processing hard",
+    "What is text preprocessing",
+    "What are regular expressions",
+    "What are Stop words",
+    "What is feature engineering"],
+    "responses": ["You wil be directed to the nlp bot in a second"],
+    "context_set": ""
+   }
+  ]
+}
